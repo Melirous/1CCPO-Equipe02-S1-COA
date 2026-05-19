@@ -15,11 +15,8 @@ Com o crescimento da mobilidade elétrica, torna-se necessário desenvolver solu
 Sistema embarcado otimizado em Assembly.
 
 ## Arquitetura Utilizada
-RISC-V + Pipeline.
-
-## Tecnologias
-- RISC-V
-- 
+- RISC-V RV32I
+- Pipeline.
 
 ## Código Exemplo
 ### Exemplo simples em RISC-V para monitoramento de sensor:
