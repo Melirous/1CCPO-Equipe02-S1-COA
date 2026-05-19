@@ -128,10 +128,10 @@ acesso_negado:
     ecall
 
 #### Encerrar programa
-fim:
+    fim:
 
-    li a7, 10
-    ecall
+      li a7, 10
+      ecall
 
 ##### Impactos Esperados
 - Menor custo operacional
