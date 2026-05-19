@@ -20,8 +20,6 @@ RISC-V + Pipeline.
 ## Tecnologias
 - Assembly
 - RISC-V
-- Arduino (opcional)
-- Simuladores
 
 ## Código Exemplo
 (colocar trecho Assembly)
