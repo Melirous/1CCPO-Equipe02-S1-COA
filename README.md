@@ -1,1 +1,35 @@
-# 1CCPO-Equipe02-S1-COA
+# EV ChargeGrid EcoCore
+
+## Integrantes
+João Victor Canello Ferian-rm573295
+Gustavo Melo dos Santos-rm573562
+João pedro costenari silva-rm572260
+
+## Problema
+Descrever a ineficiência computacional em eletropostos.
+
+## Justificativa
+Explicar impactos energéticos e ambientais.
+
+## Solução
+Sistema embarcado otimizado em Assembly.
+
+## Arquitetura Utilizada
+RISC-V + Pipeline.
+
+## Tecnologias
+- Assembly
+- RISC-V
+- Arduino (opcional)
+- Simuladores
+
+## Código Exemplo
+(colocar trecho Assembly)
+
+## Sustentabilidade
+Redução de consumo energético computacional.
+
+## Impactos Esperados
+- Menor uso de energia
+- Melhor desempenho
+- Menor custo operacional
