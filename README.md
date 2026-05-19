@@ -6,17 +6,19 @@
 ### João pedro costenari silva-rm572260
 
 ## Problema
-A ineficiência computacional em eletropostos.
+Os eletropostos modernos utilizam softwares de alto nível e hardwares genéricos para realizar tarefas simples, como autenticação de usuários, leitura de sensores e controle de carregamento.
+Isso gera, consumo desnecessário de energia computacional, maior utilização da CPU, desperdício de recursos de hardware e menor eficiência energética do sistema.
 
 ## Justificativa
 Com o crescimento da mobilidade elétrica, torna-se necessário desenvolver soluções mais eficientes também no nível computacional. Mesmo utilizando energia limpa, muitos eletropostos ainda desperdiçam energia durante o processamento interno devido ao uso de sistemas pouco otimizados. O objetivo do projeto é tornar os eletropostos mais eficientes utilizando metodos mais sustentaveis
 
 ## Solução
-Sistema embarcado otimizado em Assembly.
+Desenvolver um módulo embarcado otimizado chamado EcoCore, responsável por executar operações críticas do eletroposto utilizando programação em Assembly e arquitetura RISC-V.
+A proposta utiliza instruções mais simples e diretas, reduzindo o número de ciclos de clock e o consumo energético do processador.
 
 ## Arquitetura Utilizada
 - RISC-V RV32I
-- Pipeline.
+- Pipeline
 
 ## Código Exemplo
 ### Exemplo simples em RISC-V para monitoramento de sensor:
