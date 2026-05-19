@@ -36,23 +36,22 @@ ALERTA:
 SUB x5, x1, x3
 
 ### Sistema de Autenticacao em RISC-V, Arquitetura RV32I
+    .data
+    usuario_correto: .asciz "admin"
+    senha_correta:   .asciz "1234"
 
-.data
-usuario_correto: .asciz "admin"
-senha_correta:   .asciz "1234"
+    msgUser: .asciz "Usuario: "
+    msgPass: .asciz "Senha: "
+    msgOK:   .asciz "Acesso permitido!\n"
+    msgErro: .asciz "Acesso negado!\n"
 
-msgUser: .asciz "Usuario: "
-msgPass: .asciz "Senha: "
-msgOK:   .asciz "Acesso permitido!\n"
-msgErro: .asciz "Acesso negado!\n"
+    usuario: .space 20
+    senha:   .space 20
 
-usuario: .space 20
-senha:   .space 20
+    .text
+    .globl main
 
-.text
-.globl main
-
-main:
+    main:
 
 # Exibe "Usuario:"
     la a0, msgUser
