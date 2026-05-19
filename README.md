@@ -6,7 +6,7 @@
 ### João pedro costenari silva-rm572260
 
 ## Problema
-Descrever a ineficiência computacional em eletropostos.
+A ineficiência computacional em eletropostos.
 
 ## Justificativa
 Explicar impactos energéticos e ambientais.
