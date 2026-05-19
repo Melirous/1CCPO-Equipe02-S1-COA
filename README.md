@@ -28,6 +28,6 @@ RISC-V + Pipeline.
 Redução de consumo energético computacional.
 
 ## Impactos Esperados
+- Menor custo operacional
 - Menor uso de energia
 - Melhor desempenho
-- Menor custo operacional
