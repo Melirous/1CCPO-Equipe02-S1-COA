@@ -23,17 +23,16 @@ RISC-V + Pipeline.
 
 ## Código Exemplo
 ### Exemplo simples em RISC-V para monitoramento de sensor:
+    LW x1, 0(x2)
+    ADDI x3, x0, 80
+    BLT x1, x3, OK
+    J ALERTA
 
-LW x1, 0(x2)
-ADDI x3, x0, 80
-BLT x1, x3, OK
-J ALERTA
+    OK:
+    ADD x4, x1, x0
 
-OK:
-ADD x4, x1, x0
-
-ALERTA:
-SUB x5, x1, x3
+    ALERTA:
+    SUB x5, x1, x3
 
 ### Sistema de Autenticacao em RISC-V, Arquitetura RV32I
     .data
