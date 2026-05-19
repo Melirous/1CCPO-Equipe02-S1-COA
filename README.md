@@ -53,29 +53,29 @@ SUB x5, x1, x3
 
     main:
 
-# Exibe "Usuario:"
+#### Exibe "Usuario:"
     la a0, msgUser
     li a7, 4
     ecall
 
-# Le usuario
+#### Le usuario
     la a0, usuario
     li a1, 20
     li a7, 8
     ecall
 
-# Exibe "Senha:"
+#### Exibe "Senha:"
     la a0, msgPass
     li a7, 4
     ecall
 
-# Le senha
+#### Le senha
     la a0, senha
     li a1, 20
     li a7, 8
     ecall
 
-# Compara usuario
+#### Compara usuario
     la t0, usuario
     la t1, usuario_correto
     li t2, 5
@@ -93,7 +93,7 @@ comparar_usuario:
 
     bnez t2, comparar_usuario
 
-# Compara senha
+#### Compara senha
     la t0, senha
     la t1, senha_correta
     li t2, 4
@@ -111,7 +111,7 @@ comparar_senha:
 
     bnez t2, comparar_senha
 
-# Acesso permitido
+#### Acesso permitido
 acesso_permitido:
 
     la a0, msgOK
@@ -120,20 +120,20 @@ acesso_permitido:
 
     j fim
 
-# Acesso negado
+#### Acesso negado
 acesso_negado:
 
     la a0, msgErro
     li a7, 4
     ecall
 
-# Encerrar programa
+#### Encerrar programa
 fim:
 
     li a7, 10
     ecall
 
-## Impactos Esperados
+##### Impactos Esperados
 - Menor custo operacional
 - Menor uso de energia
 - Melhor desempenho
