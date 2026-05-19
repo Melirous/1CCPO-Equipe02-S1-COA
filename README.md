@@ -1,9 +1,9 @@
 # EV ChargeGrid EcoCore
 
 ## Integrantes
-###João Victor Canello Ferian-rm573295
-###Gustavo Melo dos Santos-rm573562
-###João pedro costenari silva-rm572260
+### João Victor Canello Ferian-rm573295
+### Gustavo Melo dos Santos-rm573562
+### João pedro costenari silva-rm572260
 
 ## Problema
 Descrever a ineficiência computacional em eletropostos.
