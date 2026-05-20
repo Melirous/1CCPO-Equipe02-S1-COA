@@ -1,4 +1,4 @@
-# ChargeGrid EcoCore
+# ChargeGrid Neo-ssembly
 
 ## Integrantes
 ### João Victor Canello Ferian-rm573295
@@ -13,7 +13,7 @@ Isso gera, consumo desnecessário de energia computacional, maior utilização d
 Com o crescimento da mobilidade elétrica, torna-se necessário desenvolver soluções mais eficientes também no nível computacional. Mesmo utilizando energia limpa, muitos eletropostos ainda desperdiçam energia durante o processamento interno devido ao uso de sistemas pouco otimizados. O objetivo do projeto é tornar os eletropostos mais eficientes utilizando metodos mais sustentaveis
 
 ## Solução
-Desenvolver um módulo embarcado otimizado chamado EcoCore, responsável por executar operações críticas do eletroposto utilizando programação em Assembly e arquitetura RISC-V.
+Desenvolver um módulo embarcado otimizado chamado Neo-ssembly, responsável por executar operações críticas do eletroposto utilizando programação em Assembly e arquitetura RISC-V.
 A proposta utiliza instruções mais simples e diretas, reduzindo o número de ciclos de clock e o consumo energético do processador.
 
 ## Arquitetura Utilizada
