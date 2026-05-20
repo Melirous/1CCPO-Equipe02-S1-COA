@@ -1,4 +1,4 @@
-# EV ChargeGrid EcoCore
+# ChargeGrid EcoCore
 
 ## Integrantes
 ### João Victor Canello Ferian-rm573295
