@@ -1,4 +1,4 @@
-# ChargeGrid Neo-ssembly
+# Projeto Neo-ssembly
 
 ## Integrantes
 ### João Victor Canello Ferian-rm573295
