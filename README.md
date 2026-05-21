@@ -1,9 +1,10 @@
 # Projeto Neo-ssembly
 
 ## Integrantes
-### João Victor Canello Ferian-rm573295
-### Gustavo Melo dos Santos-rm573562
-### João pedro costenari silva-rm572260
+### João Victor Canello Ferian - rm573295
+### Gustavo Melo dos Santos - rm573562
+### João pedro costenari silva - rm572260
+### Julian Nayde Moncoski - rm572603
 
 ## Problema
 Os eletropostos modernos utilizam softwares de alto nível e hardwares genéricos para realizar tarefas simples, como autenticação de usuários, leitura de sensores e controle de carregamento.
